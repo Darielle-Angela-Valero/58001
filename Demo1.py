@@ -8,6 +8,8 @@ btn1.place(x=200,y=200)
 txtfld = Entry(window, border = 2)
 txtfld.place(x=250, y=250)
 
+lbl = Label(window, text = "My First Demo", font = "Verdana")
+lbl.place(x=100,y=100)
 
 
 window.mainloop()
